@@ -1,5 +1,6 @@
 project := opentracing
 
+
 pytest := PYTHONDONTWRITEBYTECODE=1 py.test --tb short -rxs \
 	--cov-config .coveragerc --cov $(project) tests
 
